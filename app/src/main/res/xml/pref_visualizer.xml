@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        android:defaultValue="@string/low_default"
+        android:key="@string/low_key"
+        android:title="@string/low_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/high_default"
+        android:key="@string/high_key"
+        android:title="@string/high_title" />
+
+    <ListPreference
+        android:defaultValue="@string/even_odd_value"
+        android:entries="@array/pref_parity_label"
+        android:entryValues="@array/pref_parity_value"
+        android:key="@string/parity_list_key"
+        android:title="@string/parity_list_title" />
+
+
+</PreferenceScreen>

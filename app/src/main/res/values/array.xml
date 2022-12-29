@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_parity_label">
+        <item>@string/even_label</item>
+        <item>@string/odd_label</item>
+        <item>@string/even_odd_label</item>
+    </array>
+
+    <array name="pref_parity_value">
+        <item>@string/even_value</item>
+        <item>@string/odd_value</item>
+        <item>@string/even_odd_value</item>
+    </array>
+</resources>

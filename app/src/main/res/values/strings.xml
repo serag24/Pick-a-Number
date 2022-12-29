@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pick a number</string>
+
+    //Pref_visualizer
+    <string name="low_default" translatable="false">1</string>
+    <string name="high_default" translatable="false">100</string>
+
+    <string name="low_title">Lowest Parameter</string>
+    <string name="high_title">Highest Parameter</string>
+    <string name="parity_list_title">Odd or Even</string>
+
+    <string name="low_key" translatable="false">lowNr</string>
+    <string name="high_key" translatable="false">highNr</string>
+    <string name="parity_list_key" translatable="false">parity</string>
+
+    //Array -> ListPreference
+    <string name="even_label">Even</string>
+    <string name="odd_label">Odd</string>
+    <string name="even_odd_label">Both</string>
+
+    <string name="even_value">even</string>
+    <string name="odd_value">odd</string>
+    <string name="even_odd_value">both</string>
+
+    //Menu
+    <string name="menu_label">Settings</string>
+</resources>
